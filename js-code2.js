@@ -6,4 +6,4 @@ function printResult(sum) {
   return `The value of this equation is ${sum}`;
 }
 
-console.log(printResult(add(5, 7)));
+console.log(printResult(add(5, 7))); // callback of add for printResult
