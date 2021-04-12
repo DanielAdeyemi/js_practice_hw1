@@ -11,4 +11,8 @@ function aThingIMaybeLike(howMuchILikeIt) {
     }
   }
 }
-console.log(aThingIMaybeLike("really like")("functional programming")("it's cool"));
+// console.log(aThingIMaybeLike("really like")("functional programming")("it's cool"));
+
+const thingsThatBugMe = aThingIMaybeLike("don't like");
+console.log(thingsThatBugMe("global variables")("they are a code smell"));
+console.log(thingsThatBugMe("functions with side effects")("they break code"));
