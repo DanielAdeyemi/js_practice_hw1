@@ -31,3 +31,6 @@ const toDoTally = toDos.reduce((voteTally, toDo) => {
 }, {});
 
 console.log(toDoTally);
+
+const mostPopular = Object.entries(toDoTally).sort((a, b) => b[1] - a[1]);
+console.log(mostPopular);
