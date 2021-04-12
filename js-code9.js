@@ -20,4 +20,4 @@ const stringTwo = (strOne) => {
     return stringTwo(strOne.substring(1)) + strOne[0];
   }
 }
-console.log(stringTwo("fern"));
+console.log(stringTwo("reverseString"));
