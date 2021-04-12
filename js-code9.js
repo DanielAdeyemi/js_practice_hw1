@@ -12,3 +12,12 @@ const incrementCounter = (counter) => {
 }
 
 console.log(incrementCounter(0));
+
+const stringTwo = (strOne) => {
+  if (strOne === "") {
+    return strOne;
+  } else {
+    return stringTwo(strOne.substring(1)) + strOne[0];
+  }
+}
+console.log(stringTwo("fern"));
