@@ -34,3 +34,11 @@ console.log(toDoTally);
 
 const mostPopular = Object.entries(toDoTally).sort((a, b) => b[1] - a[1]);
 console.log(mostPopular);
+
+const filteredArray = numArray.filter(e => e > 2);
+console.log(filteredArray);
+
+const hikers = friends.filter(e => e.wantToDo.includes("hike")).map(e => e.name);
+// const hikersNames = hikers.map(e => e.name);
+console.log(hikers);
+// console.log(hikersNames);
